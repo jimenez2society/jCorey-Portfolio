@@ -1,0 +1,10 @@
+/* setting carousel width 90% of page */
+.PortfolioCarousel {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.PortfolioCarousel-container {
+  position: relative;
+}

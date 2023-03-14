@@ -1,0 +1,7 @@
+/* makes the nav list a flex container with some spacing  */
+.NavWebList {
+  display: flex;
+  margin-left: 125px;
+  column-gap: 50px;
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+.AvailabilityType {
+  padding: 35px 25px;
+  border: 1px solid #fff;
+  font-size: 24px;
+  line-height: 42.22px;
+  font-weight: 400;
+  width: max-content;
+}
+.active {
+  background-color: var(--primary-color-dark);
+  color: #fff;
+  border: 1px solid transparent;
+}
+.disabled {
+  border: 1px solid var(--disabled);
+  color: var(--disabled);
+}
+@media screen and (max-width: 900px) {
+  .active {
+    grid-column: 1/-1;
+    width: 100%;
+    text-align: center;
+    grid-row: 1/2;
+  }
+  .disabled {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 376px) {
+  .AvailabilityType {
+    padding: 15px 5px;
+    font-size: 16px;
+  }
+}

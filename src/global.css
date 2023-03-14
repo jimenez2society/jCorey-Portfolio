@@ -1,0 +1,118 @@
+/* font families */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Display:wght@100&display=swap");
+:root {
+  /* COLORS */
+  --primary-color: #5cffba;
+  --primary-color-dark: #5cffbb9c;
+  --primary-color-glow: #d3ffed6c;
+  --theme-dark: #000;
+  --text-color-dark-theme: #fff;
+  --container-margin: 0 100px;
+  --container-large: 0 145px;
+  --disabled: rgba(255, 255, 255, 0.719);
+}
+@media screen and (max-width: 1450px) {
+  :root {
+    --container-large: 0 10px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  :root {
+    --container-margin: 0 60px;
+  }
+}
+@media screen and (max-width: 900px) {
+  :root {
+    --container-margin: 0 40px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  min-height: 100%;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif, serif;
+  width: 100%;
+
+  /* background-color: pink; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+}
+input,
+select,
+textarea,
+option,
+optgroup,
+pre,
+code,
+button {
+  font-family: inherit;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
+}
+.section__title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 31.66px;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+.section__title::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 28px;
+  background-color: var(--primary-color);
+  top: 0;
+  left: -20px;
+}
+.container-sm {
+  margin: var(--container-margin);
+}
+.container-lg {
+  padding: var(--container-large);
+}
+.main-container {
+  padding: var(--container-large);
+  margin: var(--container-margin);
+}

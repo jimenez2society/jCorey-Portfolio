@@ -1,0 +1,132 @@
+/* ACTIVE ITEM */
+/* giving carousel width and some spacing */
+.PortfolioCarouselItem {
+  width: 413px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 20px 24px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+/* gives the all opacity of .4 and a cursor of pointer */
+.previous,
+.next,
+.hidden {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+/* translates all these into their inital positions until changed with some hover animations */
+.previous {
+  transform: translateX(-150%) scale(0.7);
+
+  transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  z-index: 2;
+}
+.previous:hover {
+  transform: translateX(-150%) scale(0.72);
+}
+.current {
+  transform: translateX(-50%);
+  transition: transform 1.3s ease-in-out, opacity 1.3s ease-in-out;
+}
+.next {
+  transform: translateX(50%) scale(0.7);
+  transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+.next:hover {
+  transform: translateX(50%) scale(0.72);
+}
+
+.hidden {
+  transform: translateX(calc(-350%)) scale(0.7);
+  transition: transform 1s ease-in-out, opacity 1s ease-in;
+}
+
+.PortfolioCarouselItem__header {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58.51px;
+  letter-spacing: 0.095em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.PortfolioCarouselItem__img {
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  height: 100px;
+}
+.imgConComingSoon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgComingSoon {
+  margin-top: 18px;
+  margin-bottom: 7px;
+  color: #00000035;
+}
+.disabled .imgComingSoon {
+  margin-top: 0px;
+  transform: translateY(18px);
+}
+.PortfolioCarouselItem__icons {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 8px;
+}
+.PortfolioCarouselItem__icons svg {
+  width: 24px;
+  height: 24px;
+}
+.PortfolioCarouselItem__content {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.095em;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.PortfolioCarouselItem__more {
+  display: flex;
+  align-items: center;
+}
+.PortfolioCarouselItem__more p {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.095em;
+  line-height: 15px;
+  margin-right: 4px;
+  margin-left: auto;
+}
+/* adjusting the position and scaling down upon decreasing screen size */
+@media screen and (max-width: 500px) {
+  .previous {
+    transform: translateX(-150%) scale(0.4);
+  }
+  .current {
+    transform: translateX(-50%) scale(0.8);
+  }
+  .next {
+    transform: translateX(50%) scale(0.4);
+  }
+  .hidden {
+    transform: translateX(calc(-350%)) scale(0.4);
+  }
+}
+@media screen and (max-width: 350px) {
+  .previous {
+    transform: translateX(-150%) scale(0.2);
+  }
+  .current {
+    transform: translateX(-50%) scale(0.6);
+  }
+  .next {
+    transform: translateX(50%) scale(0.2);
+  }
+  .hidden {
+    transform: translateX(calc(-350%)) scale(0.4);
+  }
+}

@@ -1,0 +1,17 @@
+/* Initially hide the mobile nav */
+.NavMobile {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 30px;
+  z-index: 200;
+}
+
+/* show mobile nav below 850px */
+@media screen and (max-width: 1133px) {
+  .NavMobile {
+    display: flex;
+  }
+}
+

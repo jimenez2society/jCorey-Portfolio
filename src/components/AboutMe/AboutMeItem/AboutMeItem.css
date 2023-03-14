@@ -1,0 +1,45 @@
+.AboutMeItem {
+  width: 100%;
+}
+
+.AboutMeItem__content {
+  font-size: 34px;
+  line-height: 59.81px;
+  color: #fff;
+}
+
+/* .left CLASS PUTS THE GRID ELEMENT TO TAKE THE LEFT HALF OF THE GRID  */
+.left {
+  grid-column: 1/2;
+}
+/* .right CLASS PUTS THE GRID ELEMENT TO TAKE THE RIGHT HALF OF THE GRID  */
+.right {
+  grid-row: 2/3;
+  grid-column: 2/-1;
+}
+
+/* 1260px AND SMALLER SCREENS THE .right AND .left CLASSES WILL NOW TAKE UP A FULL COLUMN CHANGING THEM FROM SIDE BY SIDE TO TOP DOWN */
+@media screen and (max-width: 1260px) {
+  .left {
+    grid-column: 1/-1;
+    margin-bottom: 160px;
+  }
+  .right {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+  }
+}
+/* 540PX AND SMALLER SCREENS WE ADJUST THE FONT SIZES AND MARGINS TO FIT SCREEN BETTER  */
+@media screen and (max-width: 540px) {
+  .left {
+    margin-bottom: 100px;
+  }
+  .AboutMeItem__content {
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .AboutMeItem__title {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+}

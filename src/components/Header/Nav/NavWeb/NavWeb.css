@@ -1,0 +1,12 @@
+/* set initial styling of navbar for browser */
+.NavWeb {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+/* hide navbar for browser when screen is less than 850px */
+@media screen and (max-width: 1133px) {
+  .NavWeb {
+    display: none;
+  }
+}

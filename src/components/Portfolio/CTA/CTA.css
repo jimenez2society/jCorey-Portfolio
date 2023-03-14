@@ -1,0 +1,74 @@
+/* make CTA into a flex container  */
+.CTA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(92, 255, 186, 0.2);
+  padding-bottom: 200px;
+  margin-top: 50rem;
+}
+
+.CTA svg,
+.CTA div button {
+  transform: translateX(-30px);
+}
+/* make CTA-btns div into a flex container */
+.CTA-btns {
+  display: flex;
+  column-gap: 45px;
+  transform: translateX(30px);
+  margin-top: 100px;
+}
+/* give the CTA buttons a fixed width and height as well as styling them seperately with different colors */
+.CTA-btns button {
+  width: 270px;
+  height: 86px;
+  background-color: var(--primary-color);
+  border: none;
+  font-size: 24px;
+  font-weight: 800;
+  border: 1px solid transparent;
+}
+.CTA-btns button:first-child {
+  color: #000;
+}
+.CTA-btns button:last-child {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+/* styling the CTA btns and svg to be more responsive to smaller screens */
+@media screen and (max-width: 900px) {
+  .CTA svg {
+    max-width: 30rem;
+    transform: translateX(0px);
+  }
+}
+@media screen and (max-width: 615px) {
+  .CTA {
+    padding-bottom: 100px;
+  }
+  .CTA-btns {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .CTA-btns button {
+    width: 100%;
+    font-size: 18px;
+    height: 46px;
+  }
+  .CTA-btns button:first-child {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 565px) {
+  .CTA svg {
+    max-width: 20rem;
+  }
+}
+@media screen and (max-width: 353px) {
+  .CTA svg {
+    max-width: 15rem;
+  }
+}

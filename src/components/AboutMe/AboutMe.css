@@ -1,0 +1,34 @@
+/* MAKING THE .AboutMe A GRID CONTAINER WITH 2 COLS 1fr EACH */
+.AboutMe {
+  column-gap: 310px;
+  row-gap: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 200px;
+}
+/* DECREASING THE COLUMN-GAP */
+@media screen and (max-width: 1630px) {
+  .AboutMe {
+    column-gap: 210px;
+  }
+}
+/* PUTTING PADDING ON THE SIDES AS SCREEN GETS SMALLER AND DECREASING COLUMN GAP */
+@media screen and (max-width: 1450px) {
+  .AboutMe {
+    padding: 0 10px;
+    column-gap: 110px;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .AboutMe {
+    padding: 0 10px;
+    column-gap: 110px;
+    row-gap: 0px;
+  }
+}
+/* DECREASING MARGIN-TOP */
+@media screen and (max-width: 670px) {
+  .AboutMe {
+    margin-top: 130px;
+  }
+}

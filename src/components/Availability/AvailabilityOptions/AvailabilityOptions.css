@@ -1,0 +1,21 @@
+/* turn into a grid container with 6 columns */
+.AvailabilityOptions {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* turn into a grid container with 2 columns @ screen < 900px*/
+@media screen and (max-width: 900px) {
+  .AvailabilityOptions {
+    grid-template-columns: repeat(2, 2fr);
+    row-gap: 20px;
+  }
+}
+/* turn into a grid container with 1 column @ screen < 600px*/
+@media screen and (max-width: 600px) {
+  .AvailabilityOptions {
+    grid-template-columns: repeat(1, 2fr);
+    row-gap: 20px;
+  }
+}

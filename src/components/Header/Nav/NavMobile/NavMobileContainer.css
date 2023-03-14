@@ -1,0 +1,64 @@
+/* set initial properties of the Nav with a height of 0 until it is open */
+.NavMobileContainer {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 0%;
+  display: none;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  z-index: 100;
+}
+/* when mobile nav is open allow it to take the fullscreen but is hidden initially */
+.NavMobileContainer.open {
+  display: none;
+  min-height: 100vh;
+}
+/* adding flex column to give space between the list-items */
+.NavMobileContainer__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  height: 100%;
+  padding-top: auto;
+  overflow-y: scroll;
+  max-height: 600px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.NavMobileContainer__list::-webkit-scrollbar {
+  display: none;
+}
+/* giving padding to list-items for more clicking space */
+.NavMobileContainer__list-item {
+  padding: 10px;
+}
+
+/* style the actual link of list-item */
+.NavMobileContainer__list-item a {
+  text-decoration: none;
+  font-size: 56px;
+  transition: 0.3s;
+}
+/* give link primary color on hover */
+.NavMobileContainer__list-item a:hover {
+  color: var(--primary-color);
+}
+/* show container on screen widths less than 850px */
+@media screen and (max-width: 1133px) {
+  .NavMobileContainer.open {
+    display: flex;
+    height: 100%;
+    padding: 20px 0;
+    padding-top: 150px;
+  }
+}
+
+/* give the links smaller font size when screen is less than 350px to aloow it to fit better */
+@media screen and (max-width: 350px) {
+  .NavMobileContainer__list-item a {
+    font-size: 36px;
+  }
+}

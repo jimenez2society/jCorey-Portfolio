@@ -1,0 +1,11 @@
+/* giving some spacing on top */
+.SocialListContainer {
+  margin-top: 70px;
+}
+
+/* text-align center on smaller screen  */
+@media screen and (max-width: 660px) {
+  .SocialListContainer {
+    text-align: center;
+  }
+}

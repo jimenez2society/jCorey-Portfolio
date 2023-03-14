@@ -1,0 +1,11 @@
+.Portfolio {
+  margin-top: 200px;
+  min-height: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 350px) {
+  .section__title.portfolio {
+    margin: 0;
+  }
+}

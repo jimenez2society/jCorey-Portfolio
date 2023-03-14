@@ -1,0 +1,14 @@
+/* makes footer a flex container and seperates the content  */
+.Footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* make the footer a grid container with 1 col and two rows for a more mobile friendly look when screen < 660px */
+@media screen and (max-width: 660px) {
+  .Footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

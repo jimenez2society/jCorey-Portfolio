@@ -1,0 +1,32 @@
+/* giving in input component a max-width  */
+.Input {
+  max-width: 415px;
+}
+/* all inputs but the last one gets margin-bottom */
+.Input:not(:last-child) {
+  margin-bottom: 20px;
+}
+/* setting color, background-color, and spacing on the inputs */
+.Input input {
+  color: white;
+  width: 100%;
+  padding: 15px 0;
+  padding-left: 20px;
+  outline: none;
+  background-color: var(--theme-dark);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+/* setting color, background-color, and spacing on the textarea */
+.Input textarea {
+  color: white;
+  min-width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+  padding: 20px;
+  padding-top: 15px;
+  outline: none;
+  background-color: var(--theme-dark);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}

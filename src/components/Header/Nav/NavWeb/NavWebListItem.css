@@ -1,0 +1,52 @@
+/* styles the .NavWebListItem that also has a class of .link */
+.NavWebListItem.link a:link,
+.NavWebListItem.link a:visited {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  position: relative;
+}
+
+/* gives the .link a items an initial sudo element state of ::after to later show an animation on hover  */
+.NavWebListItem.link a:link::after,
+.NavWebListItem.link a:visited::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background-color: var(--primary-color);
+  bottom: -8px;
+  left: 0;
+  transition: 0.3s;
+}
+
+/* shows animation by giving the width of the ::after 100% */
+.NavWebListItem.link a:active::after,
+.NavWebListItem.link a:hover::after {
+  width: 100%;
+}
+
+/* styles the .NavWebListItem that also has a class of .btn */
+.NavWebListItem.btn {
+  margin-left: auto;
+}
+
+/* styling the .NavWebListItem.btn :link :visited :hover :active states */
+.NavWebListItem.btn a:link,
+.NavWebListItem.btn a:visited {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 18px 30px;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+.NavWebListItem.btn a:hover,
+.NavWebListItem.btn a:active {
+  color: #000;
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+}

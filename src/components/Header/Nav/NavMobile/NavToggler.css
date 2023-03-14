@@ -1,0 +1,67 @@
+/* position the NavToggler to an absolute position based on parents postion , have it sit all the way to the right, and give it a pointer cursor to indicate functionallity */
+.NavToggler {
+  padding: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+/* give each div in side a width and height to create a hamburger like icon */
+.NavToggler div {
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+}
+/* every item in the hamburger icon gets a margin-bottom of 6px except the last child */
+.NavToggler div:not(:last-child) {
+  margin-bottom: 6px;
+}
+/* giving the top div a smaller width for visual, the opacity is set for when it is toggled it can fade out */
+.NavToggler .top {
+  margin-left: auto;
+  width: 60%;
+  transition: all 0.1s, width 0.3s ease-out;
+  opacity: 1;
+}
+/* giving middle div smaller width for visual, setting transitions and tranforms for when it is toggled */
+.NavToggler .middle {
+  margin-left: auto;
+  width: 40%;
+  transition: width 0.3s ease-out;
+  transform: translateY(0) rotate(0);
+  transition: all 0.3s;
+}
+/* bottom width remains the same, but transitions are set for toggle */
+.NavToggler .bottom {
+  transform: translateY(0) rotate(0);
+  transition: all 0.3s;
+}
+/* on hover creating a quick animation that allows top and middle to grow to 100% */
+.NavToggler:hover > .top,
+.NavToggler:hover > .middle {
+  width: 100%;
+}
+
+/*  ON NAV OPEN */
+
+/* giving a little more padding for the content when nav opens */
+.NavToggler.open {
+  padding: 10px;
+}
+/* on open, set all the divs margin-bottom to 0 */
+.NavToggler.open div {
+  margin-bottom: 0px;
+}
+
+/* top fades out */
+.NavToggler.open .top {
+  visibility: hidden;
+  opacity: 0;
+}
+/* on open, middle and bottom rotates to create a small animation and in the end result is an X for exit  */
+.NavToggler.open .middle {
+  transform: translateY(1px) rotate(135deg);
+  width: 24px;
+}
+.NavToggler.open .bottom {
+  transform: translateY(-1px) rotate(-135deg);
+}

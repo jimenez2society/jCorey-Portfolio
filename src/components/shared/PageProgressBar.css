@@ -1,0 +1,8 @@
+/* setting progress fixed to the top and backround color of primary with a high z-index so it displays on top */
+.PageProgressBar {
+  height: 4px;
+  background-color: var(--primary-color);
+  position: fixed;
+  top: 0;
+  z-index: 20000;
+}

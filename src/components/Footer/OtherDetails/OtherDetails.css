@@ -1,0 +1,41 @@
+/* giving a max width to the OtherDetails container */
+.OtherDetails {
+  max-width: 438px;
+}
+.OtherDetails__message {
+  margin-top: 70px;
+  margin-bottom: 90px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.77px;
+}
+.OtherDetails__copyright {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  margin-bottom: 26px;
+}
+/* adjusting the container to sit on the second row, giving top and bottom margins and text-align center when screen size < 660px */
+
+@media screen and (max-width: 660px) {
+  .OtherDetails {
+    grid-row: 2/-1;
+  }
+
+  .OtherDetails__message {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .OtherDetails__copyright {
+    text-align: center;
+  }
+}
+
+/* reducing font-size and margin-bottom adding text-align center when screen < 500px */
+@media screen and (max-width: 500px) {
+  .OtherDetails__message {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}

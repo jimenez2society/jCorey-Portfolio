@@ -1,0 +1,14 @@
+/* making list a flex container with a column direction */
+
+.SocialList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+/* making list into grid with 2 colums when screen < 660px */
+@media screen and (max-width: 660px) {
+  .SocialList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,13 @@
+
+.SkillsSection-heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 84.43px;
+}
+@media screen and (max-width: 540px) {
+  .SkillsSection-heading {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}

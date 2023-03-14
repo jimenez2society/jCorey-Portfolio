@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# **jCorey** - Corey Jimenez's Portfolio Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Libraries used
 
-## Available Scripts
+### `react`
 
-In the project directory, you can run:
+This site is component based site built with reactjs library
 
-### `npm start`
+### `reduxjs/toolkit react-redux`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Using redux toolkit for global state of the navigation and carousel. Could of used useContext for this funcionality but since I've been practicing with redux I figured I use redux toolkit.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Content`
 
-### `npm test`
+## **jCorey** has a few a sections incuding:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Skills — presenting the skills that I have
+- About Corey — giving a little bio of myself
+- Availability — showing my availability as an employee
+- Portfolio — showcasing any projects that I've worked on
+- Contact — allows for potential employers to contact me
 
-### `npm run build`
+## Images — Desktop versions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### [Header Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![header section of jcorey site](./screenshots/header.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### [Skills Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#highlighted-skill)
 
-### `npm run eject`
+![skills section of jcorey site](./screenshots/skillDesktop.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### [About Me Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#about-me)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![about me section of jcorey site](./screenshots/about-me.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### [Availability Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#availability)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![availability section of jcorey site](./screenshots/Availability-section.png)
 
-## Learn More
+#### [Portfolio Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#portfolio)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![portfolio section of jcorey site](./screenshots/portfolio-section.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### [cta/footer Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#footer)
 
-### Code Splitting
+![skills section of jcorey site](./screenshots/footer-cta-section.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Responsivness
 
-### Analyzing the Bundle Size
+This website if fully optimized for mobile use here is a link — [jCorey](https://640fabe5398ed826e3c09846--jcorey.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## The future for this website:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- I will be adding portfolio projects as I complete them
+- I will be adding more images of projects and more images of me as they come
+- I will be adding links to all of the projects in my portfolio as soon as they are live

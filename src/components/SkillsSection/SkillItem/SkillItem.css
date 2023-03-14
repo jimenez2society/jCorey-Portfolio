@@ -1,0 +1,25 @@
+/* using grid-column to make it more mobile responsive */
+.SkillItem {
+  width: 100%;
+  border: 1px solid #fff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 24px;
+  line-height: 42.22px;
+  text-align: center;
+}
+@media screen and (max-width: 1150px) {
+  .SkillItem:last-child {
+    grid-column: 1/-1;
+  }
+}
+@media screen and (max-width: 670px) {
+  .SkillItem:last-child {
+    grid-column: 2/-1;
+  }
+}
+@media screen and (max-width: 466px) {
+  .SkillItem:last-child {
+    grid-column: 1/-1;
+  }
+}

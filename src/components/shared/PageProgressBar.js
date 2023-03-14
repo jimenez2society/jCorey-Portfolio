@@ -25,7 +25,7 @@ function PageProgressBar() {
   return (
     // pass in the percentScrolled in the width property to get a nice progress bar at the top
     <div
-      style={{ width: `${percentScrolled}%` }}
+      style={{ width: `${percentScrolled}%`, transition: ".05s" }}
       className="PageProgressBar"
     ></div>
   );

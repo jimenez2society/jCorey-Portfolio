@@ -22,33 +22,33 @@ Using redux toolkit for global state of the navigation and carousel. Could of us
 
 ## Images — Desktop versions
 
-#### [Header Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/)
+#### [Header Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/)
 
 ![header section of jcorey site](./screenshots/header.png)
 
-#### [Skills Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#highlighted-skill)
+#### [Skills Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#highlighted-skill)
 
 ![skills section of jcorey site](./screenshots/skillDesktop.png)
 
-#### [About Me Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#about-me)
+#### [About Me Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#about-me)
 
 ![about me section of jcorey site](./screenshots/about-me.png)
 
-#### [Availability Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#availability)
+#### [Availability Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#availability)
 
 ![availability section of jcorey site](./screenshots/Availability-section.png)
 
-#### [Portfolio Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#portfolio)
+#### [Portfolio Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#portfolio)
 
 ![portfolio section of jcorey site](./screenshots/portfolio-section.png)
 
-#### [cta/footer Section:](https://640fabe5398ed826e3c09846--jcorey.netlify.app/#footer)
+#### [cta/footer Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#footer)
 
 ![skills section of jcorey site](./screenshots/footer-cta-section.png)
 
 ## Responsivness
 
-This website if fully optimized for mobile use here is a link — [jCorey](https://640fabe5398ed826e3c09846--jcorey.netlify.app/)
+This website if fully optimized for mobile use here is a link — [jCorey](https://641022a85aa97b4d2659967c--jcorey.netlify.app/)
 
 ## The future for this website:
 

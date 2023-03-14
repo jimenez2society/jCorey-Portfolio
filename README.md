@@ -55,3 +55,7 @@ This website if fully optimized for mobile use here is a link — [jCorey](https
 - I will be adding portfolio projects as I complete them
 - I will be adding more images of projects and more images of me as they come
 - I will be adding links to all of the projects in my portfolio as soon as they are live
+
+### Current bugs that are in progress of being fixed:
+
+- There is a small bug where on mobile if you toggle the mobile navbar at a certain scroll height you can still see the background of the main page but the intended effect of the mobile navbar that it fills up the whole screen no matter what. It is a minor bug but is being worked on.

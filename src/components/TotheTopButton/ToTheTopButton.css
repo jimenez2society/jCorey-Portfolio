@@ -2,13 +2,15 @@
   background-color: var(--primary-color);
   position: fixed;
   bottom: 5%;
-  right: 5%;
+  right: 2%;
   width: 50px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  z-index: 2000;
+  border-radius: 5px;
 }
 .arrow svg {
   width: 30px;

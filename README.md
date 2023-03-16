@@ -22,7 +22,7 @@ Using redux toolkit for global state of the navigation and carousel. Could of us
 
 ## Images — Desktop versions
 
-#### [Header Section:](https://6413300d210e67066a2c2260--jcorey.netlify.app)
+#### Header Section:
 
 ![header section of jcorey site](./screenshots/header.png)
 

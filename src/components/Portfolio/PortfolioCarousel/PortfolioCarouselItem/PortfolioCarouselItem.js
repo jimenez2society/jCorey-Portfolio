@@ -43,7 +43,14 @@ function PortfolioCarouselItem({
       </div>
 
       <div className="PortfolioCarouselItem__icons">
-        {comingSoon ? githubDisabled : github}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/jimenez2society"
+        >
+          {comingSoon ? githubDisabled : github}
+        </a>
+
         {!comingSoon && getLogoFromName(logoSm)}
       </div>
       <div className="PortfolioCarouselItem__content">

@@ -4,7 +4,9 @@ function SocialListItem({ title, to }) {
   // creates the links that are intended to be the children of the <SocialList/> component
   return (
     <li className="SocialListItem">
-      <a href={to}>{title}</a>
+      <a target="_blank" rel="noreferrer" href={to}>
+        {title}
+      </a>
     </li>
   );
 }

@@ -8,10 +8,10 @@ function Footer() {
     <footer id="footer" className="Footer container-sm">
       <OtherDetails />
       <SocialListContainer>
-        <SocialListItem title="Facebook" />
-        <SocialListItem title="Twitter" />
-        <SocialListItem title="Instagram" />
-        <SocialListItem title="LinkedIn" />
+        <SocialListItem title="Facebook" to="https://facebook.com/" />
+        <SocialListItem title="Twitter" to="https://twitter.com/" />
+        <SocialListItem title="Instagram" to="https://instagram.com" />
+        <SocialListItem title="LinkedIn" to="https://linkedIn.com" />
       </SocialListContainer>
     </footer>
   );

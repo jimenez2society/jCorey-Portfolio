@@ -7,13 +7,11 @@ import "./CarouselNavgationBtn.css";
 
 function CarouselNavgationBtn({ index, logo, title, showItemOnClick }) {
   return (
-    <li className="CarouselNavgationBtn">
-      <button onClick={() => showItemOnClick(index)}>
-        <span className="CarouselNavgationBtnLogo">
-          {logo ? getLogoFromName(logo) : construction}
-        </span>
-        <p>{title}</p>
-      </button>
+    <li onClick={() => showItemOnClick(index)} className="CarouselNavgationBtn">
+      <span className="CarouselNavgationBtnLogo">
+        {logo ? getLogoFromName(logo) : construction}
+      </span>
+      <p>{title}</p>
     </li>
   );
 }

@@ -6,8 +6,8 @@ function CTA() {
     <div className="CTA container-sm">
       {slogan}
       <div className="CTA-btns">
-        <button>Get in touch</button>
-        <button>Interview Me</button>
+        <button type="button">Get in touch</button>
+        <button type="button">Interview Me</button>
       </div>
     </div>
   );

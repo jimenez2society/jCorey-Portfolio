@@ -5,6 +5,7 @@ import PageProgressBar from "./components/shared/PageProgressBar";
 import NavMobileContainer from "./components/Header/Nav/NavMobile/NavMobileContainer";
 import { useSelector } from "react-redux";
 import { getIsOpenState } from "./features/navbarSlice";
+import ToTheTopButton from "./components/TotheTopButton/ToTheTopButton";
 
 function App() {
   const isOpen = useSelector(getIsOpenState);
@@ -21,6 +22,7 @@ function App() {
   return (
     <main className={`App dark`}>
       <NavMobileContainer />
+      <ToTheTopButton />
       <PageProgressBar />
       <Router>
         <Routes>

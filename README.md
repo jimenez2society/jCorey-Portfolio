@@ -22,33 +22,33 @@ Using redux toolkit for global state of the navigation and carousel. Could of us
 
 ## Images — Desktop versions
 
-#### [Header Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/)
+#### [Header Section:](https://6413300d210e67066a2c2260--jcorey.netlify.app)
 
 ![header section of jcorey site](./screenshots/header.png)
 
-#### [Skills Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#highlighted-skill)
+#### Skills Section:
 
 ![skills section of jcorey site](./screenshots/skillDesktop.png)
 
-#### [About Me Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#about-me)
+#### About Me Section:
 
 ![about me section of jcorey site](./screenshots/about-me.png)
 
-#### [Availability Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#availability)
+#### Availability Section:
 
 ![availability section of jcorey site](./screenshots/Availability-section.png)
 
-#### [Portfolio Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#portfolio)
+#### Portfolio Section:
 
 ![portfolio section of jcorey site](./screenshots/portfolio-section.png)
 
-#### [cta/footer Section:](https://641022a85aa97b4d2659967c--jcorey.netlify.app/#footer)
+#### cta/footer Section:
 
 ![skills section of jcorey site](./screenshots/footer-cta-section.png)
 
 ## Responsivness
 
-This website if fully optimized for mobile use here is a link — [jCorey](https://641022a85aa97b4d2659967c--jcorey.netlify.app/)
+This website if fully optimized for mobile use here is a link for the website — [jCorey](https://641022a85aa97b4d2659967c--jcorey.netlify.app/)
 
 ## The future for this website:
 

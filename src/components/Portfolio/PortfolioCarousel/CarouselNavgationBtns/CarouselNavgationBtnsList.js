@@ -1,3 +1,4 @@
+import { nanoid } from "@reduxjs/toolkit";
 import React from "react";
 import CarouselNavgationBtn from "./CarouselNavgationBtn";
 import "./CarouselNavgationBtnsList.css";
@@ -7,6 +8,7 @@ function CarouselNavgationBtnsList({ items, showItemOnClick }) {
       {items.map((item, i) => {
         return (
           <CarouselNavgationBtn
+            key={nanoid()}
             index={i}
             logo={item.logoSm}
             title={item.title}

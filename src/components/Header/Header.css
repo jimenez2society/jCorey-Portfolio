@@ -1,7 +1,6 @@
 /* setting the header backgound image with 2 different srcset sizes */
 .Header {
   min-height: 100%;
-  /* height: 1200px; */
   background-image: image-set(
     url("../../assets/imgs/Hero-imagex1.jpg") 1x,
     url("../../assets/imgs/Hero-imagex2.jpg") 2x

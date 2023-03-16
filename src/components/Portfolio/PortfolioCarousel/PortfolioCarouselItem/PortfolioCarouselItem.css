@@ -82,6 +82,7 @@
   width: 24px;
   height: 24px;
 }
+
 .PortfolioCarouselItem__content {
   font-size: 18px;
   line-height: 22px;
@@ -89,9 +90,16 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-.PortfolioCarouselItem__more {
+.PortfolioCarouselItem__more:link,
+.PortfolioCarouselItem__more:visited {
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+.PortfolioCarouselItem__more.disabled {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 .PortfolioCarouselItem__more p {
   font-size: 12px;
@@ -100,6 +108,7 @@
   line-height: 15px;
   margin-right: 4px;
   margin-left: auto;
+  color: #000;
 }
 /* adjusting the position and scaling down upon decreasing screen size */
 @media screen and (max-width: 500px) {

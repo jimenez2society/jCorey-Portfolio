@@ -1,5 +1,5 @@
 import { instinctLogo, logoDark, logoDarkCircle } from "../assets/svg/svg";
-// a function that takes a string parameter. Ite compares and compares which svg to return
+// a function that takes a string parameter. It compares which svg to return
 export const getLogoFromName = (name) => {
   switch (name) {
     case "instinctLogo":

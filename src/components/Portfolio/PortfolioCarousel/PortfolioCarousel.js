@@ -12,6 +12,7 @@ import {
   updateCarousel,
 } from "../../../features/carouselSlice";
 import CarouselNavgationBtnsList from "./CarouselNavgationBtns/CarouselNavgationBtnsList";
+import { nanoid } from "@reduxjs/toolkit";
 function PortfolioCarousel() {
   const dispatch = useDispatch();
 
@@ -39,6 +40,7 @@ function PortfolioCarousel() {
       <ul className="PortfolioCarousel-container">
         {items.map((item, i) => (
           <PortfolioCarouselItem
+            key={i}
             idx={i}
             title={item.title}
             logo={item.logo}

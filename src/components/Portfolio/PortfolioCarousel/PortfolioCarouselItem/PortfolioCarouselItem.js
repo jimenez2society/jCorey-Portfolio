@@ -50,16 +50,22 @@ function PortfolioCarouselItem({
         {/* this is where the content text will go */}
         <p>{children}</p>
       </div>
-      <div className="PortfolioCarouselItem__more">
-        {/* depending on comingSoon prop display one or the other */}
-        {comingSoon && <p>Coming soon</p>}
+      {/* depending on comingSoon prop display one or the other */}
+      {comingSoon && (
+        <div className="PortfolioCarouselItem__more disabled">
+          <>
+            <p>Coming soon</p>
+          </>
+        </div>
+      )}
+      <a href={`#${title}`} className="PortfolioCarouselItem__more">
         {!comingSoon && (
           <>
             <p>View More</p>
             <span>{right}</span>
           </>
         )}
-      </div>
+      </a>
     </li>
   );
 }

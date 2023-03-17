@@ -48,7 +48,7 @@ Using redux toolkit for global state of the navigation and carousel. Could of us
 
 ## Responsivness
 
-This website if fully optimized for mobile use here is a link for the website — [jCorey](https://641022a85aa97b4d2659967c--jcorey.netlify.app/)
+This website if fully optimized for mobile use here is a link for the website — [jCorey](https://6413ed606c566c6694b8fd9b--jcorey.netlify.app/)
 
 ## The future for this website:
 

@@ -8,7 +8,7 @@ function Availability() {
   return (
     <section id="availability" className="Availability main-container">
       <p className="section__title">Availability</p>
-      {/* AvailabilityOptions IS A COMPONENT TO CONTAIN availability status' */}
+      {/* container for AvailabilityTypes. AvailabiityTypes are either set to active or not active  */}
       <AvailabilityOptions>
         <AvailabilityType title="Happily Employed" active={true} />
         <AvailabilityType title="On The Market" active={false} />

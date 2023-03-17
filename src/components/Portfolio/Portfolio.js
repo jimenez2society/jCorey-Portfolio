@@ -8,6 +8,7 @@ function Portfolio() {
       <div className="main-container">
         <p className="section__title portfolio">Portfolio</p>
       </div>
+      {/* render carousel and CTA */}
       <PortfolioCarousel />
       <CTA />
     </section>

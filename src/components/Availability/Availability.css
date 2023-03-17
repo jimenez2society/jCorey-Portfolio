@@ -1,13 +1,14 @@
-/* GIVING MARGIN TO THE TOP */
+/* give spacing to the top to indicate seperation from upper section */
 .Availability {
   margin-top: 200px;
 }
-/* GIVING MAX-WIDTH AND MARGIN TOP */
+
+/* set the width and adjust spacing on top */
 .Availability__content {
   margin-top: 85px;
   max-width: 630px;
 }
-/* SETTING FONT SIZE, WEIGHT, COLOR, AND HEIGHT OF THE PARAGRAPH */
+/* setting the style for the content paragraph */
 .Availability__content p {
   font-size: 16px;
   font-weight: 600;

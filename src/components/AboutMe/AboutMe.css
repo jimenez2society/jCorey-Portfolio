@@ -1,4 +1,4 @@
-/* MAKING THE .AboutMe A GRID CONTAINER WITH 2 COLS 1fr EACH */
+/* making the .AboutMe a grid container with 2 cols */
 .AboutMe {
   column-gap: 310px;
   row-gap: 200px;
@@ -6,13 +6,14 @@
   grid-template-columns: repeat(2, 1fr);
   margin-top: 200px;
 }
-/* DECREASING THE COLUMN-GAP */
+/* decrease column gap */
 @media screen and (max-width: 1630px) {
   .AboutMe {
     column-gap: 210px;
   }
 }
-/* PUTTING PADDING ON THE SIDES AS SCREEN GETS SMALLER AND DECREASING COLUMN GAP */
+
+/* put padding on the sides and decrease column gap for when the screen gets smaller */
 @media screen and (max-width: 1450px) {
   .AboutMe {
     padding: 0 10px;
@@ -26,7 +27,7 @@
     row-gap: 0px;
   }
 }
-/* DECREASING MARGIN-TOP */
+/* decrease margin-top */
 @media screen and (max-width: 670px) {
   .AboutMe {
     margin-top: 130px;

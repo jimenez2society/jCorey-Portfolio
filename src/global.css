@@ -11,6 +11,7 @@
   --container-large: 0 145px;
   --disabled: rgba(255, 255, 255, 0.719);
 }
+/* adjust the container depending on screen size */
 @media screen and (max-width: 1450px) {
   :root {
     --container-large: 0 10px;
@@ -26,6 +27,8 @@
     --container-margin: 0 40px;
   }
 }
+
+/* CSS resets */
 * {
   margin: 0;
   padding: 0;
@@ -87,6 +90,9 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+
+/* styles the section titles */
+
 .section__title {
   font-size: 18px;
   font-weight: 600;
@@ -106,6 +112,8 @@ h6 {
   top: 0;
   left: -20px;
 }
+
+/* adjusting different container sizes to be used */
 .container-sm {
   margin: var(--container-margin);
 }

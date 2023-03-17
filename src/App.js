@@ -8,8 +8,10 @@ import { getIsOpenState } from "./features/navbarSlice";
 import ToTheTopButton from "./components/TotheTopButton/ToTheTopButton";
 
 function App() {
+  // getting the getIsOpenState from navbarSlice initally = false
   const isOpen = useSelector(getIsOpenState);
 
+  // if "isOpen = true" set classes on the body and html for scroll, overflow and placement of navbar, if false remove classes
   if (isOpen) {
     document.body.classList.add("nav-open");
     document.getElementsByTagName("html")[0].classList.add("nav-open");
@@ -20,6 +22,7 @@ function App() {
   }
 
   return (
+    // classList of App dark so later on light mode and dark mode can be implemented
     <main className={`App dark`}>
       <NavMobileContainer />
       <ToTheTopButton />

@@ -2,7 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import navbarReducer from "../features/navbarSlice";
 import carouselReducer from "../features/carouselSlice";
 
-// CREATING A STORE WITH nabar AND carousel REDUCERS
+// creats a store for the navbar and carousel reducers
 
 export const store = configureStore({
   reducer: {

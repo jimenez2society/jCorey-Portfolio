@@ -2,6 +2,7 @@ import React from "react";
 import "./OtherDetails.css";
 function OtherDetails() {
   return (
+    // OtherDetails meaning the details other than the social links in the Footer component
     <aside className="OtherDetails">
       <p className="OtherDetails__message">
         Working as a developer became my passion the day that I wrote my first
